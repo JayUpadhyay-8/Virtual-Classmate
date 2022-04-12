@@ -1,0 +1,118 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgba(205, 220, 57, 0.1);
+        }
+
+        /* navbar */
+
+        .sidebar {
+            height: 100vh;
+            background: rgba(205, 220, 57, 0.1);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bottom-border {
+            color: black;
+            background-color: white;
+        }
+
+        .sidebar-link {
+            transition: all .4s;
+
+        }
+
+        .sidebar-link:hover {
+
+
+            box-shadow: 2px 5px 20px #111;
+            transform: translateY(-1px);
+        }
+
+
+
+        .current {
+
+
+
+            transition: all .3s;
+        }
+
+        .current:hover {
+
+
+            box-shadow: 2px 5px 20px #111;
+            transform: translateY(-1px);
+        }
+
+
+
+        .icon-parent {
+            position: relative;
+        }
+
+        .icon-bullet::after {
+            content: "";
+            position: absolute;
+            top: 7px;
+            left: 15px;
+            height: 12px;
+            width: 12px;
+            background-color: #f44336;
+            border-radius: 50%;
+        }
+
+
+
+        /* end of navbar */
+
+        /* cards */
+
+        .card-common {
+            box-shadow: 1px 2px 5px #999;
+            transition: all .4s;
+            margin-top: 15px
+        }
+
+        .card-com {
+            box-shadow: 1px 2px 5px #999;
+            transition: all .4s;
+
+        }
+
+
+        .card-common:hover {
+            box-shadow: 2px 3px 15px #999;
+            transform: translateY(-1px);
+        }
+
+        .abc {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bgnewmsg {
+            background-color: #f66436;
+            margin: 0;
+        }
+
+        .selectwidth {
+            width: 100%
+        }
+
+        .g-item {
+            width: 500px;
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .chat-link {
+            border-bottom: 1em rgba(158, 158, 158, 0.3);
+        }
+
+        .chat-link:hover {
+            background-color: rgba(158, 158, 158, 0.3);
+        }
